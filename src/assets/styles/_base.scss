@@ -1,0 +1,32 @@
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: var(--npo-color-white);
+  background-color: var(--npo-color-blue-600);
+
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  padding: 0;
+  background-color: var(--npo-color-blue-600);
+}
+
+nav a {
+  font-family: 'NPO Bold', sans-serif;
+  color: var(--npo-color-white);
+}
+
+nav a.router-link-exact-active {
+  color: var(--npo-color-orange-500);
+}
+
+body {
+  font-family: 'NPO Regular', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NPO Bold', sans-serif;
+}
